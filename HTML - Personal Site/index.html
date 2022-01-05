@@ -1,0 +1,164 @@
+<!DOCTYPE html> <!-- tells us which version of HTML we use; this is the latest version -->
+<html lang="en" dir="ltr">
+<!-- tells the browser that everythign between the html tags will be html code -->
+
+<head>
+  <!-- holds inf about the webpage; tells the browser how to handle the webpage  -->
+  <meta charset="utf-8"> <!-- tells the browser that all the text in the webpage is encoded UTF-8 (standard encoding for HTML; includes all international symbols; unicode-table.com) -->
+  <!-- meta has differnt attributes that are good to know and interesting => read more about the meta element in the doc!!! -->
+  <title>🖤Catalina's personal site</title>
+</head>
+
+<body>
+  <table>
+    <tr>
+      <td>  <img src="IMG-2212.JPG" alt="image missing"> <!-- it worked adding only the image name because they are on the same level in the project; previously, i copied the image in the project's folder, at the same level) --></td>
+      <td>
+        <h1><a href="https://www.linkedin.com/feed/?trk=onboarding-landing">Catalina GHITA</a></h1>
+        <p> <!-- paragraph tag; new line and the text inside gets grouped together in the same paragaph -->
+          <em><strong>IT </strong>Project Manager</em> <!-- it is good practice to use <em></em> instead of <i></i> to italicize (emphasize) words; for bolded text use <strong></strong> instead of <b></b> -->
+        </p>
+        <p>5+ years of Project Management; with high level exposure to top management in various areas of IT</p></td>
+    </tr>
+  </table>
+
+  <hr>
+
+  <h3>Education</h3>
+    <h4>
+        <ul>
+          <li><a href="https://www.ase.ro/">Academy of Economic Studies, Bucharest</a></li>
+            <ul>
+              <li><h5><em>Bachelor's degree in International Business</em></h5></li>
+            </ul>
+          <li>Scrum.org</li>
+            <ul>
+              <li><h5><em><a href="https://www.scrum.org/certificates/621382">PSM I certification</a></em></h5></li>
+            </ul>
+        </ul>
+    </h4>
+
+    <hr>
+
+    <h3>Work Experience</h3>
+    <table cellspacing="10">
+      <tr>
+        <td>2015 - present</td>
+        <td>Societe Generale</td>
+      </tr>
+      <tr>
+        <td>2014 - 2015</td>
+        <td>BPMWave International AG</td>
+      </tr>
+      <tr>
+        <td>2008 - 2014</td>
+        <td>HP Romania</td>
+      </tr>
+      <tr>
+        <td>2006 - 2008</td>
+        <td>EUnite Romania</td>
+      </tr>
+    </table>
+    
+    <hr>
+
+<!-- this is my solution. Not bad, but could have been better -->
+    <h3>Skills</h3>
+    <table cellspacing="10">
+      <!-- <header>
+        <th>Skill</th>
+        <th>Knowledge</th>
+      </header> -->
+      <tr>
+        <td>Project Management</td>
+        <td>⭐⭐⭐⭐</td>
+      </tr>
+      <tr>
+        <td>Agile Master</td>
+        <td>⭐⭐⭐⭐</td>
+      </tr>
+      <tr>
+        <td>Business Analysis</td>
+        <td>⭐⭐⭐</td>
+      </tr>
+      <tr>
+        <td>Python</td>
+        <td>⭐</td>
+      </tr>
+      <tr>
+        <td>Web Development</td>
+        <td>⭐</td>
+      </tr>
+      <tr>
+        <td>C#</td>
+        <td>⭐</td>
+      </tr>
+    </table>
+
+  <!-- Next is the NESTED TABLE solution -->
+
+<!-- NESTED TABLE
+</table>
+  <h3>Skills</h3>
+
+  <table>
+    <tr>
+      <td>
+        <table>
+          <tr>
+            <td>Project Management</td>
+            <td>⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Business Analysis</td>
+            <td>⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Python</td>
+            <td>⭐</td>
+          </tr>
+          <tr>
+            <td>Web Development</td>
+            <td>⭐</td>
+          </tr>
+          <tr>
+            <td>C#</td>
+            <td>⭐</td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <table>
+          <tr>
+            <td>Project Management</td>
+            <td>⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Business Analysis</td>
+            <td>⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Python</td>
+            <td>⭐</td>
+          </tr>
+          <tr>
+            <td>Web Development</td>
+            <td>⭐</td>
+          </tr>
+          <tr>
+            <td>C#</td>
+            <td>⭐</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+ THIS IS SHIT!!!! in every cell of the table i have another table with rows and date; i need tr and td tags for each cell; gen mai intai scrii tabelul mic, dupa care creezi structura tabelului mare si copy/paste...
+ce am facut se cehama ca avem one single table with 2 nested tebles inside -->
+    <hr>
+  <h3><a href="myHobbies.html">Hobbies</a></h3>
+  <h3><a href="contactMe.html">Contact me</a></h3>
+</body>
+
+</html>
